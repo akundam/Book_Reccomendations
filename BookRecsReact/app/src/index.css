@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #F3F9D2; /* Light background */
+  margin: 0;
+  padding: 0;
+  color: #3D0B37; /* Deep purple for text */
+}
+
+h1, h2, h3, h4 {
+  color: #3D0B37; /* Deep purple for headers */
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+input, textarea, button {
+  font-family: "Arial", sans-serif;
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  border: 2px solid #C0D684; /* Muted green border */
+  border-radius: 5px;
+  background-color: #CBEAA6; /* Soft green background */
+  color: #3D0B37; /* Deep purple text */
+}
+
+input:focus, textarea:focus, button:hover {
+  outline: none;
+  border-color: #3D0B37; /* Darker highlight on focus */
+}
+
+button {
+  cursor: pointer;
+  background-color: #C0D684; /* Muted green */
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3D0B37; /* Deep purple for hover */
+}
+
+.card {
+  background-color: #CBEAA6; /* Soft green */
+  border: 2px solid #C0D684; /* Muted green border */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #F3F9D2; /* Light green background */
+  border-radius: 5px;
+  border: 1px solid #C0D684;
+  color: #3D0B37; /* Deep purple text */
+}
